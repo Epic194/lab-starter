@@ -31,7 +31,7 @@ steps:
   event:          # a list of the actions that will occur when the step is triggered by an event
 
   actions:
-  - type:       gate
+    operator: ===
   # - type:
   #   option:
   #
